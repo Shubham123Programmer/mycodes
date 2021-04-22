@@ -1,0 +1,19 @@
+print("Enter your age:")
+age = int(input())
+
+
+if 7 <= age <= 100:
+
+
+
+    if age < 18:
+        print("You can't drive.")
+    elif age == 18:
+        print("Sorry! we can't decide please come physically")
+    else:
+        print("You can drive.")
+
+
+
+else:
+    print("Stop! Invalid age")
